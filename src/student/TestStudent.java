@@ -20,14 +20,15 @@ public class TestStudent {
 		student1.studying(5);
 		student2.studying(7);*/
 		
-		RegularStudent rs=new RegularStudent(1,"Ajanali","CSEAIML",'A',88,"H506");
+		/*RegularStudent rs=new RegularStudent(1,"Ajanali","CSEAIML",'A',88,"H506");
 		rs.displayInfo();
 		OnlineStudent os=new OnlineStudent(14,"Kiara","EEE",'Z',"GMEET",100);
 		os.displayInfo();
-		os.payfee();
+		os.payfee();*/
 		//rs.payfee();
 		//student1.payfee();
 		//student2.payfee();
+		student1.search(12);
 		
 	}
 }

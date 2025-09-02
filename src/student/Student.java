@@ -1,10 +1,10 @@
 package student;
 
 public class Student {
-public int RollNumber;   //create class(state)
-public String Name;      //create class(state)
-public String Dept;
-public char sec;
+private int RollNumber;   //create class(state)
+private String Name;      //create class(state)
+private String Dept;
+ char sec;
 //static String CollegeName="KIET";
 static String Collegename="KIET";
 
@@ -60,5 +60,11 @@ public static void main(String[] args) {
 	student1.playing();
 	student1.studying(5);
 	student2.studying(7);
+}
+public void search(int RollNumber) {
+	System.out.println("RollNumber");
+}
+public void search(int RollNumber,String Name) {
+	System.out.println(RollNumber);
 }
 }
