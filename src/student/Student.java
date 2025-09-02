@@ -1,9 +1,9 @@
 package student;
 
 public class Student {
-private int RollNumber;   //create class(state)
-private String Name;      //create class(state)
-private String Dept;
+public	int RollNumber;   //create class(state)
+public String Name;      //create class(state)
+public String Dept;
  char sec;
 //static String CollegeName="KIET";
 static String Collegename="KIET";
